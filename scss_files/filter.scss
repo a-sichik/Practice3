@@ -1,0 +1,98 @@
+.filter{
+    margin-top: 40px;
+    display: flex;
+    &_chose{
+        padding-left: 20px;
+        background-color: #FBFBFB;
+        max-width: 310px;
+        padding-top: 20px;
+        &_title{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: Cera Pro;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 16px;
+            text-align: left;
+            color: #3d3d3d;
+        }
+        &_option{
+            max-width: 250px;
+            display: flex;
+            justify-content: space-between;
+            &_text{
+                font-family: Cera Pro;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 40px;
+                text-align: left;
+                color: #3d3d3d;
+            }
+            &_text:hover{
+                color: #46A358;
+            }
+        }
+    }
+    img{
+        margin-left: -50px;
+        margin-top: 15px;
+    }
+    &_images{
+        margin-left: 20px;
+        &_title{
+            display: flex;
+            &_right{
+                justify-content: space-between;
+                display: flex;
+                :hover{
+                    border-bottom: 2px solid #46A358;
+                    color: #46A358;
+                }
+                div{
+                    font-family: Cera Pro;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    text-align: left;
+                    color: #3d3d3d;
+                    margin-left: 20px;
+                    :hover{
+                        color: #46A358;
+                    }
+                }
+            }
+            &_left{
+                display: flex;
+                margin-left: 420px;
+            }
+        }
+        &_products{
+            margin-top: 30px;
+            margin-left: 60px;
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            grid-column-gap: 50px;
+            grid-row-gap: 40px;
+        }
+        &_product{
+            &_name{
+                font-family: Cera Pro;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: left;
+                color: #3d3d3d;
+                margin-top: 15px;
+            }
+            &_price{
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 16px;
+                text-align: left;
+                color: #46A358;
+                margin-top: 10px;
+            }
+        }
+    }
+}

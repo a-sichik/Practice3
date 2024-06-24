@@ -1,0 +1,75 @@
+header {
+  margin-bottom: 70px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .left {
+  display: flex;
+  align-items: center;
+}
+header .left :first-child {
+  margin-right: 20px;
+}
+header .left .logo_pic {
+  width: 34.3px;
+}
+header .left .logo_text {
+  text-transform: uppercase;
+  color: #46A358;
+  font-size: 16px;
+  font-weight: 1000;
+}
+header .mid {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3D3D3D;
+}
+header .mid :hover {
+  border-bottom: 2px solid #46A358;
+  font-weight: bold;
+}
+header .mid a {
+  display: block;
+  text-decoration: none;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+header .mid a :hover {
+  font-weight: bold;
+  border-bottom: 2px solid #46A358;
+}
+header .mid a:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+header .right {
+  align-items: center;
+  display: flex;
+}
+header .right img {
+  margin-right: 20px;
+}
+header .right .lupa {
+  width: 20px;
+  height: 20px;
+}
+header .right .korz {
+  width: 29px;
+  height: 24px;
+}
+header .right .login {
+  width: 100px;
+  height: 35px;
+}
+header .right:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */

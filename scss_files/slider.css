@@ -1,0 +1,121 @@
+.slider {
+  position: relative;
+  background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+  display: flex;
+  justify-content: space-between;
+}
+.slider_text {
+  max-width: 597px;
+  margin-left: 40px;
+}
+.slider_text_pretitle {
+  font-family: Cera Pro Black;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #3D3D3D;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.slider_text_title {
+  margin-top: 10px;
+  font-family: Cera Pro Bold;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 70px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #3D3D3D;
+}
+.slider_text_title span {
+  font-family: Cera Pro;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #46A358;
+}
+.slider_text_main {
+  max-width: 557px;
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #727272;
+  margin-bottom: 40px;
+}
+.slider_text button {
+  width: 140px;
+  height: 40px;
+  background-color: #46A358;
+  display: flex;
+  align-items: center;
+  border: none;
+  margin-bottom: 80px;
+  border-radius: 10px;
+}
+.slider_text button a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider_images {
+  display: flex;
+  align-items: end;
+}
+.slider_images :first-child {
+  width: 135px;
+  height: 135px;
+  margin-right: -180px;
+  margin-bottom: 40px;
+}
+.slider_images img {
+  width: 518px;
+  height: 518px;
+}
+.slider_circles {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  display: flex;
+}
+.slider_circles_item {
+  width: 8px;
+  height: 8px;
+  background-color: #46A358;
+  opacity: 30%;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.slider_circles_item.active {
+  opacity: 100%;
+}
+.slider_arrows {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+}
+.slider_arrows :last-child {
+  transform: rotate(180deg);
+}
+.slider_arrows div {
+  display: flex;
+  align-items: center;
+  background-color: #3D3D3D;
+  border-radius: 10px;
+}
+.slider_arrows div img {
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=slider.css.map */

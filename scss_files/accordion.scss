@@ -1,0 +1,63 @@
+.accordion{
+    max-height: 586px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    &_item{
+        margin-right: 35px;
+        background-color:  #FBFBFB;
+        justify-content: space-between;
+        display: flex;
+        img{
+            margin-top: -60px;
+        }
+        &_text{
+            img{
+                margin-top: 0;
+            }
+            margin-left: 10px;
+            margin-top: 30px;
+            &_title{
+                float: right;
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-weight: 900;
+                line-height: 24px;
+                text-align: right;
+                text-transform: uppercase;
+                max-width: 170px;
+                color: #3d3d3d;
+            }
+            &_main{
+                float: right;
+                max-width: 300px;
+                font-family: Cera Pro;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: right;
+                color: #727272;
+            }
+            button{
+                float: right;
+                background-color: #46A358;
+                width: 140px;
+                height: 40px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                border: none;
+                border-radius: 10px;
+                a{
+                    color: #fff;
+                    font-family: Cera Pro;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    text-align: left;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

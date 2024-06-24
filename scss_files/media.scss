@@ -1,0 +1,204 @@
+@media screen and (max-width: 1025px){
+    .filter_images_products{
+        display: grid;
+        grid-template-columns: 250px 250px;
+    }
+    .filter_images_title_left{
+        margin-left: 200px;
+    }
+    .blog_images{
+        display: grid;
+        grid-template-columns: 270px 270px;
+        justify-content: center;
+        align-items: center;
+        grid-column-gap: 40px;
+    }
+    .blog_images_item{
+    }
+    .footer_first{
+        display: grid;
+        justify-content: center;
+    }
+    .footer_first_email{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .filter_images_products{
+        position: relative;
+        :last-child{
+            display: none;
+        }
+        :nth-child(8){
+            display: none;
+        }
+        :nth-child(7){
+            display: none;
+        }
+    }
+    .but_product{
+        position: absolute;
+        left: 30%;
+        z-index: 3;
+        bottom: -110px;
+        float: right;
+        color: white;
+    background-color: #46a358;
+    width: 140px;
+    height: 40px;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+}
+.burger{
+    width: 35px;
+    height: 35px;
+    display: none;
+}
+.accordion{
+    margin-top: 200px;
+}
+@media screen and (max-width: 769px){
+    .burger{
+        display: block;
+    }
+    .mid{
+        display: none;
+    }
+    .filter_chose{
+        display: none;
+    }
+    .filter{
+        justify-content: center;
+    }
+    .accordion{
+        display: grid;
+        grid-template-columns: 442px;
+        justify-content: center;
+        grid-row-gap: 80px;
+        margin-top: 200px;
+    }
+    .slider_images{
+    }
+    .slider_img.active{
+        object-fit: fill;
+        width: 450px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 376px){
+    .slider_img{
+        object-fit: cover;
+        width: 350px;
+    }
+    .slider_img.active{
+        object-fit: fill;
+        width: 350px;
+        height: 350px;
+    }
+    .left{
+        display: none;
+        :first-child{
+            margin-right: 10px;
+        }
+    }
+    .login{
+        display: none;
+    }
+    .logo_pic{
+        margin-right: 5px;
+    }
+    .slider{
+        flex-direction: column;
+        
+    }
+    .slider_images{
+        margin-left: 40px;
+        margin-right: auto;
+        order: 1;
+        :first-child{
+            z-index: 2;
+            margin-bottom: 20px;
+        }
+    }
+    .slider_text{
+        order: 2;
+    }
+    .filter_images_products{
+        grid-template-columns: 250px;
+    }
+    .filter_images_title_left{
+        display: none;
+    }
+    .but_product{
+        left: 0;
+    }
+    .accordion_item{
+        display: grid;
+        margin-right: 40px;
+        grid-template-columns: 250px;
+        justify-content: center;
+    }
+    .accordion_item_text{
+        justify-content: center;
+    }
+    .blog{
+        margin-top: 350px;
+    }
+    .blog_images{
+        grid-template-columns: 270px;
+    }
+    .pluses{
+        display: grid;
+        grid-template-columns: 205px;
+        justify-content: center;
+    }
+    .footer_first_email_main input{
+        width: 200px;
+    }
+    .footer_first_email_subtitle{
+        max-width: 300px;
+    }
+    .footer_second{
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: 170px;
+        justify-content: center;
+        .left{
+            margin-top: 20px;
+        }
+    }
+    .footer_second_item{
+        margin-top: 20px;
+        white-space: nowrap;
+    }
+    .footer_third_item_text{
+        display: none;
+    }
+    .footer_third{
+        display: block;
+        justify-content: center;
+    }
+    .footer_third_item_title{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer_third_item_social{
+        justify-content: center;
+    }
+    .payment{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .accordion_item{
+        max-width: 350px;
+    }
+}

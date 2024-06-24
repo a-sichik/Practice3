@@ -1,0 +1,78 @@
+.blog{
+    margin-top: 120px;
+    &_title{
+        font-family: Cera Pro Bold;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: center;
+        color: #3d3d3d;
+    }
+    &_subtitle{
+        margin-top: 15px;
+        font-family: Cera Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #727272;
+    }
+    &_images{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        &_item{
+            max-width: 270px;
+            background-color: #FBFBFB;
+            margin-right: 15px;
+            &_date{
+                margin-top: 15px;
+                font-family: Cera Pro;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                text-align: left;
+                color: #46A358;
+            }
+            &_title{
+                margin-top: 5px;
+                font-family: Cera Pro Bold;
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 26px;
+                text-align: left;
+                color: #3d3d3d;
+                max-width: 190px;
+            }
+            &_subtitle{
+                margin-top: 8px;
+                font-family: Cera Pro;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: left;
+                color: #727272;
+                max-width: 250px;
+            }
+            &_more{
+                margin-top: 10px;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                img{
+                    width: 10px;
+                    height: 10px;
+                    margin-left: 5px;
+                }
+                div{
+                    font-family: Cera Pro;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    text-align: left;
+                    color: #3d3d3d;
+                }
+            }
+        }
+    }
+}
